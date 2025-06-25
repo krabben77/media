@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Artiklar",
+    "description": "",
+    "home_page_url": "https://krabben77.github.io/media",
+    "feed_url": "https://krabben77.github.io/media/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Redaktören"
+    },
+    "items": [
+    ]
+}
