@@ -3,7 +3,7 @@
     <title>Avpoxlat</title>
     <link href="https://avpixlat.xyz/feed.xml" rel="self" />
     <link href="https://avpixlat.xyz" />
-    <updated>2025-06-28T12:04:11+02:00</updated>
+    <updated>2025-06-28T13:21:53+02:00</updated>
     <author>
         <name>Redaktören</name>
     </author>
@@ -16,15 +16,18 @@
         </author>
         <link href="https://avpixlat.xyz/laenkar/"/>
         <id>https://avpixlat.xyz/laenkar/</id>
+        <media:content url="https://avpixlat.xyz/media/posts/22/free-ebooks.jpg" medium="image" />
 
         <updated>2025-06-28T12:02:28+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://avpixlat.xyz/media/posts/22/free-ebooks.jpg" alt="" />
                     Z-Library är ett onlinebibliotek som erbjuder gratis tillgång till en stor samling av e-böcker, artiklar och vetenskapliga publikationer. Det har varit ett populärt alternativ för&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://avpixlat.xyz/media/posts/22/free-ebooks.jpg" class="type:primaryImage" alt="" /></p>
                 
   <p>
     
