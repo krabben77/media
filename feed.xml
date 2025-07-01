@@ -3,7 +3,7 @@
     <title>Avpixlat</title>
     <link href="https://avpixlat.xyz/feed.xml" rel="self" />
     <link href="https://avpixlat.xyz" />
-    <updated>2025-07-01T11:39:10+02:00</updated>
+    <updated>2025-07-01T13:12:46+02:00</updated>
     <author>
         <name>Redaktören</name>
     </author>
@@ -113,152 +113,105 @@
 </main></div>
 <p>
 <script>
-		const contentData = {
-			quantumMind: [{
-					name: "Orch-OR",
-					title: "Orchestrated Objective Reduction",
-					details: "Utvecklad av Roger Penrose och Stuart Hameroff. Föreslår att medvetande uppstår från kvantprocesser i hjärncellernas mikrotubuli. Hjärnan kan 'hoppa' till kreativa lösningar på ett sätt som klassiska datorer inte kan."
-				},
-				{
-					name: "Bohm",
-					title: "Implicate Order",
-					details: "David Bohms teori ser universum som ett sammanflätat helt. Medvetandet är inte separerat från materien, utan plockar tankar ur ett underliggande, osynligt mönster. Har en stark andlig och holistisk ton."
-				},
-				{
-					name: "QBD",
-					title: "Quantum Brain Dynamics",
-					details: "Föreslår att hjärnan använder kvantfält för att lagra minnen och skapa tankar. Minnen är inte lagrade i enskilda neuroner utan i energifält som spänner över stora delar av hjärnan."
-				},
-				{
-					name: "CNET",
-					title: "Catecholaminergic Neuron Electron Transport",
-					details: "Fokuserar på dopaminproducerande nervceller. Snabba beslut kan bero på elektroner som tunnlar mellan molekyler på ett kvantmekaniskt sätt, vilket möjliggör blixtsnabba val."
-				}
-			],
-			pioneers: [{
-					year: 1952,
-					name: "David Bohm",
-					details: "Publicerade sin 'dolda variabler'-teori, ett försök att återinföra determinism i kvantmekaniken. Även om teorin inte slog igenom, återuppväckte den debatten om kvantfysikens grunder och inspirerade John Bell."
-				},
-				{
-					year: 1954,
-					name: "Max Born",
-					details: "Vann Nobelpriset för sin fundamentala forskning inom kvantmekanik, specifikt för sin statistiska tolkning av vågfunktionen, vilket är grunden för att förstå kvantmekanisk slump."
-				},
-				{
-					year: 1964,
-					name: "John Bell",
-					details: "Utvecklade Bells teorem, ett matematiskt bevis som visar att kvantmekanikens förutsägelser är oförenliga med en lokal, deterministisk världsbild. Detta bevisade att 'spooky action at a distance' var en oundviklig konsekvens av teorin."
-				},
-				{
-					year: 1972,
-					name: "John Clauser",
-					details: "Genomförde det första praktiska experimentet som testade Bells teorem. Mot alla förväntningar bekräftade hans resultat kvantmekanikens icke-lokala natur, vilket lade grunden för ett Nobelpris 50 år senare."
-				}
-			],
-			meaning: {
-				religion: {
-					title: "Fysiker, Tro och en Central Ordning",
-					text: "Determinismens kalla världsbild kan kännas meningslös. Vissa framstående fysiker fann personligen en harmoni mellan vetenskap och sin religiösa tro. De såg inte en konflikt, utan snarare två olika vägar till sanning. Max Planck och Werner Heisenberg var båda lutheraner och talade om en 'central ordning' i universum. Georges Lemaître, en katolsk präst, formulerade Big Bang-teorin och såg den som förenlig med en skapelseberättelse. För dem gav kvantmekanikens mysterier och avskaffande av strikt determinism utrymme för en gudomlig plan och fri vilja, något som den klassiska fysiken hade svårt att rymma.",
-					chartData: {
-						labels: ['Planck', 'Heisenberg', 'Lemaître', 'Bohm'],
-						data: [7, 7, 8, 9],
-						label: 'Harmoni mellan Vetenskap & Andlighet'
-					}
-				},
-				newAge: {
-					title: "Medvetandet Formar Verkligheten",
-					text: "New Age-rörelser har ofta anammat kvantfysiken, ibland på ett sätt som de flesta fysiker anser vara pseudovetenskap. Tänkare som Deepak Chopra använder begrepp som 'kvantsjäl' och 'oändliga möjligheter' för att argumentera att mänskligt medvetande direkt kan påverka och forma den fysiska verkligheten. Idén är att eftersom observation påverkar kvantsystem, kan våra tankar och intentioner påverka världen omkring oss. Även om detta saknar vetenskapliga bevis, är dess popularitet ett tecken på en längtan efter mening och agens i en värld som annars kan verka slumpmässig eller förutbestämd.",
-					chartData: {
-						labels: ['Chopra', 'Andra New Age-tolkare'],
-						data: [10, 8],
-						label: 'Medvetandets Skapande Kraft'
-					}
-				}
-			}
-		};
+const contentData = {
+    quantumMind: [
+        { name: "Orch-OR", title: "Orchestrated Objective Reduction", details: "Utvecklad av Roger Penrose och Stuart Hameroff. Föreslår att medvetande uppstår från kvantprocesser i hjärncellernas mikrotubuli. Hjärnan kan 'hoppa' till kreativa lösningar på ett sätt som klassiska datorer inte kan." },
+        { name: "Bohm", title: "Implicate Order", details: "David Bohms teori ser universum som ett sammanflätat helt. Medvetandet är inte separerat från materien, utan plockar tankar ur ett underliggande, osynligt mönster. Har en stark andlig och holistisk ton." },
+        { name: "QBD", title: "Quantum Brain Dynamics", details: "Föreslår att hjärnan använder kvantfält för att lagra minnen och skapa tankar. Minnen är inte lagrade i enskilda neuroner utan i energifält som spänner över stora delar av hjärnan." },
+        { name: "CNET", title: "Catecholaminergic Neuron Electron Transport", details: "Fokuserar på dopaminproducerande nervceller. Snabba beslut kan bero på elektroner som tunnlar mellan molekyler på ett kvantmekaniskt sätt, vilket möjliggör blixtsnabba val." }
+    ],
+    pioneers: [
+        { year: 1952, name: "David Bohm", details: "Publicerade sin 'dolda variabler'-teori, ett försök att återinföra determinism i kvantmekaniken. Även om teorin inte slog igenom, återuppväckte den debatten om kvantfysikens grunder och inspirerade John Bell." },
+        { year: 1954, name: "Max Born", details: "Vann Nobelpriset för sin fundamentala forskning inom kvantmekanik, specifikt för sin statistiska tolkning av vågfunktionen, vilket är grunden för att förstå kvantmekanisk slump." },
+        { year: 1964, name: "John Bell", details: "Utvecklade Bells teorem, ett matematiskt bevis som visar att kvantmekanikens förutsägelser är oförenliga med en lokal, deterministisk världsbild. Detta bevisade att 'spooky action at a distance' var en oundviklig konsekvens av teorin." },
+        { year: 1972, name: "John Clauser", details: "Genomförde det första praktiska experimentet som testade Bells teorem. Mot alla förväntningar bekräftade hans resultat kvantmekanikens icke-lokala natur, vilket lade grunden för ett Nobelpris 50 år senare." }
+    ],
+    meaning: {
+        religion: {
+            title: "Fysiker, Tro och en Central Ordning",
+            text: "Determinismens kalla världsbild kan kännas meningslös. Vissa framstående fysiker fann personligen en harmoni mellan vetenskap och sin religiösa tro. De såg inte en konflikt, utan snarare två olika vägar till sanning. Max Planck och Werner Heisenberg var båda lutheraner och talade om en 'central ordning' i universum. Georges Lemaître, en katolsk präst, formulerade Big Bang-teorin och såg den som förenlig med en skapelseberättelse. För dem gav kvantmekanikens mysterier och avskaffande av strikt determinism utrymme för en gudomlig plan och fri vilja, något som den klassiska fysiken hade svårt att rymma.",
+            chartData: { labels: ['Planck', 'Heisenberg', 'Lemaître', 'Bohm'], data: [7, 7, 8, 9], label: 'Harmoni mellan Vetenskap & Andlighet' }
+        },
+        newAge: {
+            title: "Medvetandet Formar Verkligheten",
+            text: "New Age-rörelser har ofta anammat kvantfysiken, ibland på ett sätt som de flesta fysiker anser vara pseudovetenskap. Tänkare som Deepak Chopra använder begrepp som 'kvantsjäl' och 'oändliga möjligheter' för att argumentera att mänskligt medvetande direkt kan påverka och forma den fysiska verkligheten. Idén är att eftersom observation påverkar kvantsystem, kan våra tankar och intentioner påverka världen omkring oss. Även om detta saknar vetenskapliga bevis, är dess popularitet ett tecken på en längtan efter mening och agens i en värld som annars kan verka slumpmässig eller förutbestämd.",
+            chartData: { labels: ['Chopra', 'Andra New Age-tolkare'], data: [10, 8], label: 'Medvetandets Skapande Kraft' }
+        }
+    }
+};
 
-		document.addEventListener('DOMContentLoaded', () => {
-			const navButtons = document.querySelectorAll('.nav-button');
-			const contentSections = document.querySelectorAll('.content-section');
-			let worldviewChart, meaningChart;
+document.addEventListener('DOMContentLoaded', () => {
+    const navButtons = document.querySelectorAll('.nav-button');
+    const contentSections = document.querySelectorAll('.content-section');
+    let worldviewChart, meaningChart;
 
-			function switchTab(targetId) {
-				navButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.target === targetId));
-				contentSections.forEach(sec => sec.classList.toggle('active', sec.id === targetId));
-			}
+    function switchTab(targetId) {
+        navButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.target === targetId));
+        contentSections.forEach(sec => sec.classList.toggle('active', sec.id === targetId));
+    }
 
-			navButtons.forEach(button => {
-				button.addEventListener('click', () => switchTab(button.dataset.target));
-			});
+    navButtons.forEach(button => {
+        button.addEventListener('click', () => switchTab(button.dataset.target));
+    });
 
-			function createWorldviewChart() {
-				const ctx = document.getElementById('worldviewChart').getContext('2d');
-				if (worldviewChart) worldviewChart.destroy();
-				worldviewChart = new Chart(ctx, {
-					type: 'radar',
-					data: {
-						labels: ['Förutsägbarhet', 'Lokalitet', 'Objektiv Verklighet', 'Slump', 'Observatörs-påverkan'],
-						datasets: [{
-								label: 'Klassisk Fysik',
-								data: [10, 10, 10, 1, 1],
-								backgroundColor: 'rgba(76, 81, 191, 0.2)',
-								borderColor: 'rgba(76, 81, 191, 1)',
-								pointBackgroundColor: 'rgba(76, 81, 191, 1)',
-								borderWidth: 2
-							},
-							{
-								label: 'Kvantfysik',
-								data: [2, 1, 4, 10, 9],
-								backgroundColor: 'rgba(255, 99, 132, 0.2)',
-								borderColor: 'rgba(255, 99, 132, 1)',
-								pointBackgroundColor: 'rgba(255, 99, 132, 1)',
-								borderWidth: 2
-							}
-						]
-					},
-					options: {
-						responsive: true,
-						maintainAspectRatio: false,
-						scales: {
-							r: {
-								angleLines: {
-									color: 'rgba(0, 0, 0, 0.1)'
-								},
-								grid: {
-									color: 'rgba(0, 0, 0, 0.1)'
-								},
-								pointLabels: {
-									font: {
-										size: 12
-									}
-								},
-								suggestedMin: 0,
-								suggestedMax: 10,
-								ticks: {
-									display: false
-								}
-							}
-						},
-						plugins: {
-							legend: {
-								position: 'top'
-							}
-						}
-					}
-				});
-			}
-
-			function populateQuantumMind() {
-				const container = document.getElementById('quantum-mind-cards');
-				const detailsPanel = document.getElementById('quantum-mind-details');
-
-				contentData.quantumMind.forEach(theory => {
-					const card = document.createElement('div');
-					card.className = 'info-card bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer';
-					card.innerHTML = `<h4 class="font-semibold text-indigo-700">${theory.title}</h4>`;
-					card.addEventListener('click', () => {
-						detailsPanel.innerHTML = `
+    function createWorldviewChart() {
+        const ctx = document.getElementById('worldviewChart').getContext('2d');
+        if (worldviewChart) worldviewChart.destroy();
+        worldviewChart = new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['Förutsägbarhet', 'Lokalitet', 'Objektiv Verklighet', 'Slump', 'Observatörs-påverkan'],
+                datasets: [
+                    {
+                        label: 'Klassisk Fysik',
+                        data: [10, 10, 10, 1, 1],
+                        backgroundColor: 'rgba(76, 81, 191, 0.2)',
+                        borderColor: 'rgba(76, 81, 191, 1)',
+                        pointBackgroundColor: 'rgba(76, 81, 191, 1)',
+                        borderWidth: 2
+                    },
+                    {
+                        label: 'Kvantfysik',
+                        data: [2, 1, 4, 10, 9],
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        pointBackgroundColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 2
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        angleLines: { color: 'rgba(0, 0, 0, 0.1)' },
+                        grid: { color: 'rgba(0, 0, 0, 0.1)' },
+                        pointLabels: { font: { size: 12 } },
+                        suggestedMin: 0,
+                        suggestedMax: 10,
+                        ticks: {
+                           display: false
+                        }
+                    }
+                },
+                plugins: {
+                    legend: { position: 'top' }
+                }
+            }
+        });
+    }
+    
+    function populateQuantumMind() {
+        const container = document.getElementById('quantum-mind-cards');
+        const detailsPanel = document.getElementById('quantum-mind-details');
+        
+        contentData.quantumMind.forEach(theory => {
+            const card = document.createElement('div');
+            card.className = 'info-card bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer';
+            card.innerHTML = `<h4 class="font-semibold text-indigo-700">${theory.title}</h4>`;
+            card.addEventListener('click', () => {
+                detailsPanel.innerHTML = `
                     <div class="text-left w-full">
                         <h3 class="text-2xl font-bold mb-2">${theory.title}</h3>
                         <p class="text-slate-600">${theory.details}</p>
@@ -266,165 +219,145 @@
                         <div id="analogy-output" class="mt-4 p-3 bg-slate-50 rounded-lg border border-slate-200 text-slate-700 hidden"></div>
                         <div id="analogy-loading" class="mt-4 text-slate-500 hidden">Laddar...</div>
                     </div>`;
+                
+                document.getElementById('generate-analogy-btn').addEventListener('click', () => {
+                    generateAnalogy(theory.title, theory.details);
+                });
+            });
+            container.appendChild(card);
+        });
+    }
 
-						document.getElementById('generate-analogy-btn').addEventListener('click', () => {
-							generateAnalogy(theory.title, theory.details);
-						});
-					});
-					container.appendChild(card);
-				});
-			}
+    async function generateAnalogy(title, details) {
+        const analogyOutput = document.getElementById('analogy-output');
+        const analogyLoading = document.getElementById('analogy-loading');
+        analogyOutput.classList.add('hidden');
+        analogyLoading.classList.remove('hidden');
+        analogyOutput.innerHTML = '';
 
-			async function generateAnalogy(title, details) {
-				const analogyOutput = document.getElementById('analogy-output');
-				const analogyLoading = document.getElementById('analogy-loading');
-				analogyOutput.classList.add('hidden');
-				analogyLoading.classList.remove('hidden');
-				analogyOutput.innerHTML = '';
+        const prompt = `Förklara "${title}" (${details}) på ett enkelt sätt med en vardagsanalogi. Håll det kort och koncist.`;
+        let chatHistory = [];
+        chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+        const payload = { contents: chatHistory };
+        const apiKey = "";
+        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
-				const prompt = `Förklara "${title}" (${details}) på ett enkelt sätt med en vardagsanalogi. Håll det kort och koncist.`;
-				let chatHistory = [];
-				chatHistory.push({
-					role: "user",
-					parts: [{
-						text: prompt
-					}]
-				});
-				const payload = {
-					contents: chatHistory
-				};
-				const apiKey = "";
-				const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+        try {
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            const result = await response.json();
+            if (result.candidates && result.candidates.length > 0 &&
+                result.candidates[0].content && result.candidates[0].content.parts &&
+                result.candidates[0].content.parts.length > 0) {
+                const text = result.candidates[0].content.parts[0].text;
+                analogyOutput.innerHTML = text;
+                analogyOutput.classList.remove('hidden');
+            } else {
+                analogyOutput.innerHTML = 'Kunde inte generera en analogi. Försök igen.';
+                analogyOutput.classList.remove('hidden');
+            }
+        } catch (error) {
+            analogyOutput.innerHTML = 'Ett fel uppstod vid generering av analogi.';
+            analogyOutput.classList.remove('hidden');
+        } finally {
+            analogyLoading.classList.add('hidden');
+        }
+    }
 
-				try {
-					const response = await fetch(apiUrl, {
-						method: 'POST',
-						headers: {
-							'Content-Type': 'application/json'
-						},
-						body: JSON.stringify(payload)
-					});
-					const result = await response.json();
-					if (result.candidates && result.candidates.length > 0 &&
-						result.candidates[0].content && result.candidates[0].content.parts &&
-						result.candidates[0].content.parts.length > 0) {
-						const text = result.candidates[0].content.parts[0].text;
-						analogyOutput.innerHTML = text;
-						analogyOutput.classList.remove('hidden');
-					} else {
-						analogyOutput.innerHTML = 'Kunde inte generera en analogi. Försök igen.';
-						analogyOutput.classList.remove('hidden');
-					}
-				} catch (error) {
-					analogyOutput.innerHTML = 'Ett fel uppstod vid generering av analogi.';
-					analogyOutput.classList.remove('hidden');
-				} finally {
-					analogyLoading.classList.add('hidden');
-				}
-			}
-
-			function populatePioneers() {
-				const timeline = document.getElementById('pioneers-timeline');
-				const details = document.getElementById('pioneer-details');
-
-				contentData.pioneers.forEach(pioneer => {
-					const item = document.createElement('div');
-					item.className = 'timeline-item cursor-pointer group';
-					item.innerHTML = `
+    function populatePioneers() {
+        const timeline = document.getElementById('pioneers-timeline');
+        const details = document.getElementById('pioneer-details');
+        
+        contentData.pioneers.forEach(pioneer => {
+            const item = document.createElement('div');
+            item.className = 'timeline-item cursor-pointer group';
+            item.innerHTML = `
                 <div class="timeline-dot group-hover:bg-pink-500"></div>
                 <p class="font-bold text-lg group-hover:text-indigo-600">${pioneer.name}</p>
                 <p class="text-sm text-slate-500">${pioneer.year}</p>
             `;
-					item.addEventListener('click', () => {
-						details.innerHTML = `
+            item.addEventListener('click', () => {
+                details.innerHTML = `
                     <div class="text-left">
                         <h3 class="text-3xl font-bold mb-2">${pioneer.name} <span class="text-xl font-normal text-slate-500">(${pioneer.year})</span></h3>
                         <p class="text-slate-600 text-lg">${pioneer.details}</p>
                     </div>`;
-					});
-					timeline.appendChild(item);
-				});
-			}
+            });
+            timeline.appendChild(item);
+        });
+    }
 
-			function updateMeaningContent(type) {
-				const content = document.getElementById('meaning-content');
-				const data = contentData.meaning[type];
-				content.innerHTML = `
+    function updateMeaningContent(type) {
+        const content = document.getElementById('meaning-content');
+        const data = contentData.meaning[type];
+        content.innerHTML = `
             <h3 class="text-2xl font-bold mb-3">${data.title}</h3>
             <p>${data.text}</p>
         `;
-				createMeaningChart(data.chartData);
-			}
+        createMeaningChart(data.chartData);
+    }
+    
+    function createMeaningChart(chartData) {
+        const ctx = document.getElementById('meaningChart').getContext('2d');
+        if (meaningChart) meaningChart.destroy();
+        meaningChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: chartData.labels,
+                datasets: [{
+                    label: chartData.label,
+                    data: chartData.data,
+                    backgroundColor: ['rgba(76, 81, 191, 0.6)', 'rgba(107, 114, 128, 0.6)', 'rgba(239, 68, 68, 0.6)', 'rgba(245, 158, 11, 0.6)'],
+                    borderColor: ['rgba(76, 81, 191, 1)', 'rgba(107, 114, 128, 1)', 'rgba(239, 68, 68, 1)', 'rgba(245, 158, 11, 1)'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        suggestedMax: 10,
+                        grid: { display: false },
+                        ticks: { display: false }
+                    },
+                     y: {
+                        grid: { display: false }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    title: { display: true, text: 'Konceptuell representation' }
+                }
+            }
+        });
+    }
+    
+    const meaningButtons = document.querySelectorAll('.meaning-btn');
+    meaningButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            meaningButtons.forEach(b => b.classList.remove('active', 'bg-indigo-600', 'text-white'));
+            meaningButtons.forEach(b => b.classList.add('bg-slate-200', 'text-slate-700'));
+            
+            e.currentTarget.classList.add('active', 'bg-indigo-600', 'text-white');
+            e.currentTarget.classList.remove('bg-slate-200', 'text-slate-700');
+            
+            const type = e.currentTarget.id === 'btn-religion' ? 'religion' : 'newAge';
+            updateMeaningContent(type);
+        });
+    });
 
-			function createMeaningChart(chartData) {
-				const ctx = document.getElementById('meaningChart').getContext('2d');
-				if (meaningChart) meaningChart.destroy();
-				meaningChart = new Chart(ctx, {
-					type: 'bar',
-					data: {
-						labels: chartData.labels,
-						datasets: [{
-							label: chartData.label,
-							data: chartData.data,
-							backgroundColor: ['rgba(76, 81, 191, 0.6)', 'rgba(107, 114, 128, 0.6)', 'rgba(239, 68, 68, 0.6)', 'rgba(245, 158, 11, 0.6)'],
-							borderColor: ['rgba(76, 81, 191, 1)', 'rgba(107, 114, 128, 1)', 'rgba(239, 68, 68, 1)', 'rgba(245, 158, 11, 1)'],
-							borderWidth: 1
-						}]
-					},
-					options: {
-						responsive: true,
-						maintainAspectRatio: false,
-						indexAxis: 'y',
-						scales: {
-							x: {
-								beginAtZero: true,
-								suggestedMax: 10,
-								grid: {
-									display: false
-								},
-								ticks: {
-									display: false
-								}
-							},
-							y: {
-								grid: {
-									display: false
-								}
-							}
-						},
-						plugins: {
-							legend: {
-								display: false
-							},
-							title: {
-								display: true,
-								text: 'Konceptuell representation'
-							}
-						}
-					}
-				});
-			}
-
-			const meaningButtons = document.querySelectorAll('.meaning-btn');
-			meaningButtons.forEach(btn => {
-				btn.addEventListener('click', (e) => {
-					meaningButtons.forEach(b => b.classList.remove('active', 'bg-indigo-600', 'text-white'));
-					meaningButtons.forEach(b => b.classList.add('bg-slate-200', 'text-slate-700'));
-
-					e.currentTarget.classList.add('active', 'bg-indigo-600', 'text-white');
-					e.currentTarget.classList.remove('bg-slate-200', 'text-slate-700');
-
-					const type = e.currentTarget.id === 'btn-religion' ? 'religion' : 'newAge';
-					updateMeaningContent(type);
-				});
-			});
-
-			createWorldviewChart();
-			populateQuantumMind();
-			populatePioneers();
-			updateMeaningContent('religion');
-		});
-	</script>
+    createWorldviewChart();
+    populateQuantumMind();
+    populatePioneers();
+    updateMeaningContent('religion');
+});
+</script>
 </p>
             ]]>
         </content>
