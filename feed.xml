@@ -3,12 +3,739 @@
     <title>Avpixlat</title>
     <link href="https://avpixlat.xyz/feed.xml" rel="self" />
     <link href="https://avpixlat.xyz" />
-    <updated>2025-07-01T10:13:42+02:00</updated>
+    <updated>2025-07-01T11:39:10+02:00</updated>
     <author>
         <name>Redaktören</name>
     </author>
     <id>https://avpixlat.xyz</id>
 
+    <entry>
+        <title>Kvantfysik &amp; Livets Stora Frågor</title>
+        <author>
+            <name>Redaktören</name>
+        </author>
+        <link href="https://avpixlat.xyz/kvantfysik-and-livets-stora-fragor-2/"/>
+        <id>https://avpixlat.xyz/kvantfysik-and-livets-stora-fragor-2/</id>
+
+        <updated>2025-07-01T11:38:32+02:00</updated>
+            <summary>
+                <![CDATA[
+                    En interaktiv resa genom kvantmekanikens mysterier och dess kopplingar till medvetande, fri vilja och sökandet efter mening. Klassisk fysik målade upp en förutsägbar, mekanisk värld. Kvantfysiken avslöjade en helt annan bild, fylld av slump, osäkerhet och mystiska samband. Den här sektionen låter dig jämföra dessa&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</p>
+<!-- Chosen Palette: Calm Harmony -->
+<p> </p>
+<!-- Application Structure Plan: A thematic, tab-based single-page application. This non-linear structure allows users to freely explore the core concepts (Worldviews, Quantum Mind, Pioneers, Meaning) in any order they wish. This is more engaging than a linear article format and better suited for a digital, interactive experience. Each tab reveals a dedicated section with tailored interactive elements (comparison charts, clickable info cards, timelines) to make the dense philosophical and scientific concepts more digestible and understandable. The goal is user-driven exploration over passive reading. -->
+<p> </p>
+<!-- Visualization & Content Choices: 
+        1. Världsbilder: Goal: Compare Classical vs. Quantum physics. Method: A side-by-side layout (HTML/Tailwind) and an interactive Radar Chart (Chart.js) to visually contrast the core tenets (e.g., Predictable vs. Random). Justification: A chart provides a much stronger and more immediate sense of the fundamental differences than text alone.
+        2. Kvantmedvetande: Goal: Explain different 'Quantum Mind' theories. Method: Interactive, clickable cards (HTML/JS) for each theory. Justification: This organizes complex, distinct theories into a clean, browsable interface, preventing information overload and allowing users to focus on one concept at a time.
+        3. Pionjärerna: Goal: Showcase key physicists and their contributions. Method: An interactive horizontal timeline (HTML/CSS/JS). Justification: A timeline is the most intuitive way to present historical figures and their chronological impact, creating a narrative flow.
+        4. Mening & Tro: Goal: Explore the intersection of physics and spirituality. Method: A content switcher with a conceptual bar chart (Chart.js). Justification: Separates 'Religion' and 'New Age' topics for clarity. The chart offers a visual summary of different physicists' philosophical leanings, anchoring the textual information.
+    -->
+<p> </p>
+<!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+<div class="container mx-auto px-4 py-8 md:py-12"><header class="text-center mb-8 md:mb-12">
+<h1 class="text-4xl md:text-5xl font-bold text-indigo-800 mb-2">Kvantfysik &amp; Livets Stora Frågor</h1>
+<p class="text-lg text-slate-600 max-w-3xl mx-auto">En interaktiv resa genom kvantmekanikens mysterier och dess kopplingar till medvetande, fri vilja och sökandet efter mening.</p>
+</header><nav id="main-nav" class="flex flex-wrap justify-center gap-2 md:gap-4 mb-8 md:mb-12"><button class="nav-button active text-sm md:text-base font-medium py-2 px-4 rounded-full bg-indigo-100 text-indigo-800" data-target="worldviews">🌌 Världsbilder</button> <button class="nav-button text-sm md:text-base font-medium py-2 px-4 rounded-full bg-indigo-100 text-indigo-800" data-target="quantum-mind">🧠 Kvantmedvetande</button> <button class="nav-button text-sm md:text-base font-medium py-2 px-4 rounded-full bg-indigo-100 text-indigo-800" data-target="pioneers">👩‍🔬 Pionjärerna</button> <button class="nav-button text-sm md:text-base font-medium py-2 px-4 rounded-full bg-indigo-100 text-indigo-800" data-target="meaning">🙏 Mening &amp; Tro</button></nav><main>
+<section id="worldviews" class="content-section active">
+<div class="text-center mb-8">
+<h2 class="text-3xl font-bold mb-2">Två Sätt att se på Verkligheten</h2>
+<p class="max-w-2xl mx-auto text-slate-600">Klassisk fysik målade upp en förutsägbar, mekanisk värld. Kvantfysiken avslöjade en helt annan bild, fylld av slump, osäkerhet och mystiska samband. Den här sektionen låter dig jämföra dessa två fundamentalt olika världsbilder och förstå hur kvantmekaniken tvingade oss att omvärdera allt.</p>
+</div>
+<div class="grid md:grid-cols-2 gap-8 items-start">
+<div class="bg-white p-6 rounded-xl shadow-md border border-slate-200">
+<h3 class="text-2xl font-semibold mb-3 flex items-center gap-3"><span class="text-2xl">⚙️</span> Klassisk Determinism</h3>
+<p class="text-slate-600 mb-4">Universum som ett exakt urverk. Allt är en kedjereaktion av orsak och verkan.</p>
+<ul class="space-y-2 list-inside list-disc text-slate-700">
+<li><strong>Förutsägbar:</strong> Känner man till alla variabler kan framtiden beräknas exakt.</li>
+<li><strong>Lokal:</strong> En händelse kan bara påverka sin direkta omgivning.</li>
+<li><strong>Objektiv:</strong> Verkligheten existerar oberoende av om vi observerar den.</li>
+<li><strong>Konsekvens:</strong> Kan leda till en känsla av att fri vilja är en illusion.</li>
+</ul>
+</div>
+<div class="bg-white p-6 rounded-xl shadow-md border border-slate-200">
+<h3 class="text-2xl font-semibold mb-3 flex items-center gap-3"><span class="text-2xl">⚛️</span> Kvantmekanisk Osäkerhet</h3>
+<p class="text-slate-600 mb-4">Verkligheten på den minsta nivån är probabilistisk och oberäknelig.</p>
+<ul class="space-y-2 list-inside list-disc text-slate-700">
+<li><strong>Slumpmässig:</strong> Resultatet av kvantprocesser är fundamentalt slumpmässigt.</li>
+<li><strong>Icke-lokal:</strong> Sammankopplade partiklar kan påverka varandra omedelbart över enorma avstånd.</li>
+<li><strong>Observatörsberoende:</strong> Observation kan påverka utfallet av ett experiment.</li>
+<li><strong>Konsekvens:</strong> Öppnar dörren för teorier om fri vilja och medvetandets roll.</li>
+</ul>
+</div>
+</div>
+<div class="mt-12">
+<h3 class="text-2xl font-bold text-center mb-4">Visuell Jämförelse</h3>
+<div class="chart-container"><canvas id="worldviewChart"></canvas></div>
+</div>
+</section>
+<section id="quantum-mind" class="content-section">
+<div class="text-center mb-8">
+<h2 class="text-3xl font-bold mb-2">Är Hjärnan en Kvantdator?</h2>
+<p class="max-w-2xl mx-auto text-slate-600">Idén om "kvantmedvetande" är kontroversiell men kittlande. Den föreslår att hjärnans mest komplexa funktioner – som medvetande, kreativitet och beslutsfattande – kanske grundar sig i kvantmekaniska processer. Utforska några av de ledande teorierna genom att klicka på korten nedan.</p>
+</div>
+<div id="quantum-mind-cards" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+<div id="quantum-mind-details" class="mt-8 bg-white p-6 rounded-xl shadow-md border border-slate-200 min-h-[150px] flex flex-col justify-center items-center">
+<p class="text-slate-500 text-center">Välj en teori ovan för att läsa mer.</p>
+</div>
+</section>
+<section id="pioneers" class="content-section">
+<div class="text-center mb-8">
+<h2 class="text-3xl font-bold mb-2">Fysikens Rebeller</h2>
+<p class="max-w-2xl mx-auto text-slate-600">Under en period då många fysiker nöjde sig med att "räkna och hålla tyst", vågade en grupp tänkare ställa de djupa, filosofiska frågorna om kvantmekanikens sanna natur. Deras arbete lade grunden för vår moderna förståelse av verkligheten och ledde till Nobelpris. Klicka på namnen i tidslinjen för att se deras bidrag.</p>
+</div>
+<div class="grid lg:grid-cols-3 gap-8">
+<div id="pioneers-timeline" class="lg:col-span-1 space-y-4"></div>
+<div id="pioneer-details" class="lg:col-span-2 bg-white p-6 rounded-xl shadow-md border border-slate-200 flex flex-col justify-center min-h-[300px]">
+<p class="text-slate-500 text-center">Välj en pionjär från tidslinjen till vänster.</p>
+</div>
+</div>
+</section>
+<section id="meaning" class="content-section">
+<div class="text-center mb-8">
+<h2 class="text-3xl font-bold mb-2">Sökandet efter Mening</h2>
+<p class="max-w-2xl mx-auto text-slate-600">Klassisk fysiks mekaniska världsbild lämnade lite utrymme för mening, syfte eller en gudomlig plan. Kvantfysikens mysterier och osäkerhet har däremot fått vissa att se kopplingar till andlighet och religion. Här utforskar vi hur olika tänkare och rörelser har tolkat kvantfysiken i sökandet efter djupare svar.</p>
+</div>
+<div class="text-center mb-6"><button id="btn-religion" class="meaning-btn active bg-indigo-600 text-white py-2 px-5 rounded-l-full">Vetenskap &amp; Religion</button> <button id="btn-newage" class="meaning-btn bg-slate-200 text-slate-700 py-2 px-5 rounded-r-full">New Age-tolkningar</button></div>
+<div class="grid md:grid-cols-2 gap-8 items-center">
+<div id="meaning-content" class="text-slate-700 space-y-4"></div>
+<div class="chart-container"><canvas id="meaningChart"></canvas></div>
+</div>
+</section>
+</main></div>
+<p>
+<script>
+		const contentData = {
+			quantumMind: [{
+					name: "Orch-OR",
+					title: "Orchestrated Objective Reduction",
+					details: "Utvecklad av Roger Penrose och Stuart Hameroff. Föreslår att medvetande uppstår från kvantprocesser i hjärncellernas mikrotubuli. Hjärnan kan 'hoppa' till kreativa lösningar på ett sätt som klassiska datorer inte kan."
+				},
+				{
+					name: "Bohm",
+					title: "Implicate Order",
+					details: "David Bohms teori ser universum som ett sammanflätat helt. Medvetandet är inte separerat från materien, utan plockar tankar ur ett underliggande, osynligt mönster. Har en stark andlig och holistisk ton."
+				},
+				{
+					name: "QBD",
+					title: "Quantum Brain Dynamics",
+					details: "Föreslår att hjärnan använder kvantfält för att lagra minnen och skapa tankar. Minnen är inte lagrade i enskilda neuroner utan i energifält som spänner över stora delar av hjärnan."
+				},
+				{
+					name: "CNET",
+					title: "Catecholaminergic Neuron Electron Transport",
+					details: "Fokuserar på dopaminproducerande nervceller. Snabba beslut kan bero på elektroner som tunnlar mellan molekyler på ett kvantmekaniskt sätt, vilket möjliggör blixtsnabba val."
+				}
+			],
+			pioneers: [{
+					year: 1952,
+					name: "David Bohm",
+					details: "Publicerade sin 'dolda variabler'-teori, ett försök att återinföra determinism i kvantmekaniken. Även om teorin inte slog igenom, återuppväckte den debatten om kvantfysikens grunder och inspirerade John Bell."
+				},
+				{
+					year: 1954,
+					name: "Max Born",
+					details: "Vann Nobelpriset för sin fundamentala forskning inom kvantmekanik, specifikt för sin statistiska tolkning av vågfunktionen, vilket är grunden för att förstå kvantmekanisk slump."
+				},
+				{
+					year: 1964,
+					name: "John Bell",
+					details: "Utvecklade Bells teorem, ett matematiskt bevis som visar att kvantmekanikens förutsägelser är oförenliga med en lokal, deterministisk världsbild. Detta bevisade att 'spooky action at a distance' var en oundviklig konsekvens av teorin."
+				},
+				{
+					year: 1972,
+					name: "John Clauser",
+					details: "Genomförde det första praktiska experimentet som testade Bells teorem. Mot alla förväntningar bekräftade hans resultat kvantmekanikens icke-lokala natur, vilket lade grunden för ett Nobelpris 50 år senare."
+				}
+			],
+			meaning: {
+				religion: {
+					title: "Fysiker, Tro och en Central Ordning",
+					text: "Determinismens kalla världsbild kan kännas meningslös. Vissa framstående fysiker fann personligen en harmoni mellan vetenskap och sin religiösa tro. De såg inte en konflikt, utan snarare två olika vägar till sanning. Max Planck och Werner Heisenberg var båda lutheraner och talade om en 'central ordning' i universum. Georges Lemaître, en katolsk präst, formulerade Big Bang-teorin och såg den som förenlig med en skapelseberättelse. För dem gav kvantmekanikens mysterier och avskaffande av strikt determinism utrymme för en gudomlig plan och fri vilja, något som den klassiska fysiken hade svårt att rymma.",
+					chartData: {
+						labels: ['Planck', 'Heisenberg', 'Lemaître', 'Bohm'],
+						data: [7, 7, 8, 9],
+						label: 'Harmoni mellan Vetenskap & Andlighet'
+					}
+				},
+				newAge: {
+					title: "Medvetandet Formar Verkligheten",
+					text: "New Age-rörelser har ofta anammat kvantfysiken, ibland på ett sätt som de flesta fysiker anser vara pseudovetenskap. Tänkare som Deepak Chopra använder begrepp som 'kvantsjäl' och 'oändliga möjligheter' för att argumentera att mänskligt medvetande direkt kan påverka och forma den fysiska verkligheten. Idén är att eftersom observation påverkar kvantsystem, kan våra tankar och intentioner påverka världen omkring oss. Även om detta saknar vetenskapliga bevis, är dess popularitet ett tecken på en längtan efter mening och agens i en värld som annars kan verka slumpmässig eller förutbestämd.",
+					chartData: {
+						labels: ['Chopra', 'Andra New Age-tolkare'],
+						data: [10, 8],
+						label: 'Medvetandets Skapande Kraft'
+					}
+				}
+			}
+		};
+
+		document.addEventListener('DOMContentLoaded', () => {
+			const navButtons = document.querySelectorAll('.nav-button');
+			const contentSections = document.querySelectorAll('.content-section');
+			let worldviewChart, meaningChart;
+
+			function switchTab(targetId) {
+				navButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.target === targetId));
+				contentSections.forEach(sec => sec.classList.toggle('active', sec.id === targetId));
+			}
+
+			navButtons.forEach(button => {
+				button.addEventListener('click', () => switchTab(button.dataset.target));
+			});
+
+			function createWorldviewChart() {
+				const ctx = document.getElementById('worldviewChart').getContext('2d');
+				if (worldviewChart) worldviewChart.destroy();
+				worldviewChart = new Chart(ctx, {
+					type: 'radar',
+					data: {
+						labels: ['Förutsägbarhet', 'Lokalitet', 'Objektiv Verklighet', 'Slump', 'Observatörs-påverkan'],
+						datasets: [{
+								label: 'Klassisk Fysik',
+								data: [10, 10, 10, 1, 1],
+								backgroundColor: 'rgba(76, 81, 191, 0.2)',
+								borderColor: 'rgba(76, 81, 191, 1)',
+								pointBackgroundColor: 'rgba(76, 81, 191, 1)',
+								borderWidth: 2
+							},
+							{
+								label: 'Kvantfysik',
+								data: [2, 1, 4, 10, 9],
+								backgroundColor: 'rgba(255, 99, 132, 0.2)',
+								borderColor: 'rgba(255, 99, 132, 1)',
+								pointBackgroundColor: 'rgba(255, 99, 132, 1)',
+								borderWidth: 2
+							}
+						]
+					},
+					options: {
+						responsive: true,
+						maintainAspectRatio: false,
+						scales: {
+							r: {
+								angleLines: {
+									color: 'rgba(0, 0, 0, 0.1)'
+								},
+								grid: {
+									color: 'rgba(0, 0, 0, 0.1)'
+								},
+								pointLabels: {
+									font: {
+										size: 12
+									}
+								},
+								suggestedMin: 0,
+								suggestedMax: 10,
+								ticks: {
+									display: false
+								}
+							}
+						},
+						plugins: {
+							legend: {
+								position: 'top'
+							}
+						}
+					}
+				});
+			}
+
+			function populateQuantumMind() {
+				const container = document.getElementById('quantum-mind-cards');
+				const detailsPanel = document.getElementById('quantum-mind-details');
+
+				contentData.quantumMind.forEach(theory => {
+					const card = document.createElement('div');
+					card.className = 'info-card bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer';
+					card.innerHTML = `<h4 class="font-semibold text-indigo-700">${theory.title}</h4>`;
+					card.addEventListener('click', () => {
+						detailsPanel.innerHTML = `
+                    <div class="text-left w-full">
+                        <h3 class="text-2xl font-bold mb-2">${theory.title}</h3>
+                        <p class="text-slate-600">${theory.details}</p>
+                        <button id="generate-analogy-btn" class="mt-4 px-4 py-2 bg-indigo-500 text-white rounded-full hover:bg-indigo-600 transition-colors duration-200">✨ Generera Vardagsanalogi</button>
+                        <div id="analogy-output" class="mt-4 p-3 bg-slate-50 rounded-lg border border-slate-200 text-slate-700 hidden"></div>
+                        <div id="analogy-loading" class="mt-4 text-slate-500 hidden">Laddar...</div>
+                    </div>`;
+
+						document.getElementById('generate-analogy-btn').addEventListener('click', () => {
+							generateAnalogy(theory.title, theory.details);
+						});
+					});
+					container.appendChild(card);
+				});
+			}
+
+			async function generateAnalogy(title, details) {
+				const analogyOutput = document.getElementById('analogy-output');
+				const analogyLoading = document.getElementById('analogy-loading');
+				analogyOutput.classList.add('hidden');
+				analogyLoading.classList.remove('hidden');
+				analogyOutput.innerHTML = '';
+
+				const prompt = `Förklara "${title}" (${details}) på ett enkelt sätt med en vardagsanalogi. Håll det kort och koncist.`;
+				let chatHistory = [];
+				chatHistory.push({
+					role: "user",
+					parts: [{
+						text: prompt
+					}]
+				});
+				const payload = {
+					contents: chatHistory
+				};
+				const apiKey = "";
+				const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+				try {
+					const response = await fetch(apiUrl, {
+						method: 'POST',
+						headers: {
+							'Content-Type': 'application/json'
+						},
+						body: JSON.stringify(payload)
+					});
+					const result = await response.json();
+					if (result.candidates && result.candidates.length > 0 &&
+						result.candidates[0].content && result.candidates[0].content.parts &&
+						result.candidates[0].content.parts.length > 0) {
+						const text = result.candidates[0].content.parts[0].text;
+						analogyOutput.innerHTML = text;
+						analogyOutput.classList.remove('hidden');
+					} else {
+						analogyOutput.innerHTML = 'Kunde inte generera en analogi. Försök igen.';
+						analogyOutput.classList.remove('hidden');
+					}
+				} catch (error) {
+					analogyOutput.innerHTML = 'Ett fel uppstod vid generering av analogi.';
+					analogyOutput.classList.remove('hidden');
+				} finally {
+					analogyLoading.classList.add('hidden');
+				}
+			}
+
+			function populatePioneers() {
+				const timeline = document.getElementById('pioneers-timeline');
+				const details = document.getElementById('pioneer-details');
+
+				contentData.pioneers.forEach(pioneer => {
+					const item = document.createElement('div');
+					item.className = 'timeline-item cursor-pointer group';
+					item.innerHTML = `
+                <div class="timeline-dot group-hover:bg-pink-500"></div>
+                <p class="font-bold text-lg group-hover:text-indigo-600">${pioneer.name}</p>
+                <p class="text-sm text-slate-500">${pioneer.year}</p>
+            `;
+					item.addEventListener('click', () => {
+						details.innerHTML = `
+                    <div class="text-left">
+                        <h3 class="text-3xl font-bold mb-2">${pioneer.name} <span class="text-xl font-normal text-slate-500">(${pioneer.year})</span></h3>
+                        <p class="text-slate-600 text-lg">${pioneer.details}</p>
+                    </div>`;
+					});
+					timeline.appendChild(item);
+				});
+			}
+
+			function updateMeaningContent(type) {
+				const content = document.getElementById('meaning-content');
+				const data = contentData.meaning[type];
+				content.innerHTML = `
+            <h3 class="text-2xl font-bold mb-3">${data.title}</h3>
+            <p>${data.text}</p>
+        `;
+				createMeaningChart(data.chartData);
+			}
+
+			function createMeaningChart(chartData) {
+				const ctx = document.getElementById('meaningChart').getContext('2d');
+				if (meaningChart) meaningChart.destroy();
+				meaningChart = new Chart(ctx, {
+					type: 'bar',
+					data: {
+						labels: chartData.labels,
+						datasets: [{
+							label: chartData.label,
+							data: chartData.data,
+							backgroundColor: ['rgba(76, 81, 191, 0.6)', 'rgba(107, 114, 128, 0.6)', 'rgba(239, 68, 68, 0.6)', 'rgba(245, 158, 11, 0.6)'],
+							borderColor: ['rgba(76, 81, 191, 1)', 'rgba(107, 114, 128, 1)', 'rgba(239, 68, 68, 1)', 'rgba(245, 158, 11, 1)'],
+							borderWidth: 1
+						}]
+					},
+					options: {
+						responsive: true,
+						maintainAspectRatio: false,
+						indexAxis: 'y',
+						scales: {
+							x: {
+								beginAtZero: true,
+								suggestedMax: 10,
+								grid: {
+									display: false
+								},
+								ticks: {
+									display: false
+								}
+							},
+							y: {
+								grid: {
+									display: false
+								}
+							}
+						},
+						plugins: {
+							legend: {
+								display: false
+							},
+							title: {
+								display: true,
+								text: 'Konceptuell representation'
+							}
+						}
+					}
+				});
+			}
+
+			const meaningButtons = document.querySelectorAll('.meaning-btn');
+			meaningButtons.forEach(btn => {
+				btn.addEventListener('click', (e) => {
+					meaningButtons.forEach(b => b.classList.remove('active', 'bg-indigo-600', 'text-white'));
+					meaningButtons.forEach(b => b.classList.add('bg-slate-200', 'text-slate-700'));
+
+					e.currentTarget.classList.add('active', 'bg-indigo-600', 'text-white');
+					e.currentTarget.classList.remove('bg-slate-200', 'text-slate-700');
+
+					const type = e.currentTarget.id === 'btn-religion' ? 'religion' : 'newAge';
+					updateMeaningContent(type);
+				});
+			});
+
+			createWorldviewChart();
+			populateQuantumMind();
+			populatePioneers();
+			updateMeaningContent('religion');
+		});
+	</script>
+</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Kvantfysik &amp; Livets Stora Frågor</title>
+        <author>
+            <name>Redaktören</name>
+        </author>
+        <link href="https://avpixlat.xyz/kvantfysik-and-livets-stora-fragor/"/>
+        <id>https://avpixlat.xyz/kvantfysik-and-livets-stora-fragor/</id>
+
+        <updated>2025-07-01T11:28:18+02:00</updated>
+            <summary>
+                <![CDATA[
+                    En interaktiv resa genom kvantmekanikens mysterier och dess kopplingar till medvetande, fri vilja och sökandet efter mening. Klassisk fysik målade upp en förutsägbar, mekanisk värld. Kvantfysiken avslöjade en helt annan bild, fylld av slump, osäkerhet och mystiska samband. Den här sektionen låter dig jämföra dessa&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</p>
+<!-- Chosen Palette: Calm Harmony -->
+<p> </p>
+<!-- Application Structure Plan: A thematic, tab-based single-page application. This non-linear structure allows users to freely explore the core concepts (Worldviews, Quantum Mind, Pioneers, Meaning) in any order they wish. This is more engaging than a linear article format and better suited for a digital, interactive experience. Each tab reveals a dedicated section with tailored interactive elements (comparison charts, clickable info cards, timelines) to make the dense philosophical and scientific concepts more digestible and understandable. The goal is user-driven exploration over passive reading. -->
+<p> </p>
+<!-- Visualization & Content Choices: 
+        1. Världsbilder: Goal: Compare Classical vs. Quantum physics. Method: A side-by-side layout (HTML/Tailwind) and an interactive Radar Chart (Chart.js) to visually contrast the core tenets (e.g., Predictable vs. Random). Justification: A chart provides a much stronger and more immediate sense of the fundamental differences than text alone.
+        2. Kvantmedvetande: Goal: Explain different 'Quantum Mind' theories. Method: Interactive, clickable cards (HTML/JS) for each theory. Justification: This organizes complex, distinct theories into a clean, browsable interface, preventing information overload and allowing users to focus on one concept at a time.
+        3. Pionjärerna: Goal: Showcase key physicists and their contributions. Method: An interactive horizontal timeline (HTML/CSS/JS). Justification: A timeline is the most intuitive way to present historical figures and their chronological impact, creating a narrative flow.
+        4. Mening & Tro: Goal: Explore the intersection of physics and spirituality. Method: A content switcher with a conceptual bar chart (Chart.js). Justification: Separates 'Religion' and 'New Age' topics for clarity. The chart offers a visual summary of different physicists' philosophical leanings, anchoring the textual information.
+    -->
+<p> </p>
+<!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+<div class="container mx-auto px-4 py-8 md:py-12"><header class="text-center mb-8 md:mb-12">
+<h1 class="text-4xl md:text-5xl font-bold text-indigo-800 mb-2">Kvantfysik &amp; Livets Stora Frågor</h1>
+<p class="text-lg text-slate-600 max-w-3xl mx-auto">En interaktiv resa genom kvantmekanikens mysterier och dess kopplingar till medvetande, fri vilja och sökandet efter mening.</p>
+</header><nav id="main-nav" class="flex flex-wrap justify-center gap-2 md:gap-4 mb-8 md:mb-12"><button class="nav-button active text-sm md:text-base font-medium py-2 px-4 rounded-full bg-indigo-100 text-indigo-800" data-target="worldviews">🌌 Världsbilder</button> <button class="nav-button text-sm md:text-base font-medium py-2 px-4 rounded-full bg-indigo-100 text-indigo-800" data-target="quantum-mind">🧠 Kvantmedvetande</button> <button class="nav-button text-sm md:text-base font-medium py-2 px-4 rounded-full bg-indigo-100 text-indigo-800" data-target="pioneers">👩‍🔬 Pionjärerna</button> <button class="nav-button text-sm md:text-base font-medium py-2 px-4 rounded-full bg-indigo-100 text-indigo-800" data-target="meaning">🙏 Mening &amp; Tro</button></nav><main>
+<section id="worldviews" class="content-section active">
+<div class="text-center mb-8">
+<h2 class="text-3xl font-bold mb-2">Två Sätt att se på Verkligheten</h2>
+<p class="max-w-2xl mx-auto text-slate-600">Klassisk fysik målade upp en förutsägbar, mekanisk värld. Kvantfysiken avslöjade en helt annan bild, fylld av slump, osäkerhet och mystiska samband. Den här sektionen låter dig jämföra dessa två fundamentalt olika världsbilder och förstå hur kvantmekaniken tvingade oss att omvärdera allt.</p>
+</div>
+<div class="grid md:grid-cols-2 gap-8 items-start">
+<div class="bg-white p-6 rounded-xl shadow-md border border-slate-200">
+<h3 class="text-2xl font-semibold mb-3 flex items-center gap-3"><span class="text-2xl">⚙️</span> Klassisk Determinism</h3>
+<p class="text-slate-600 mb-4">Universum som ett exakt urverk. Allt är en kedjereaktion av orsak och verkan.</p>
+<ul class="space-y-2 list-inside list-disc text-slate-700">
+<li><strong>Förutsägbar:</strong> Känner man till alla variabler kan framtiden beräknas exakt.</li>
+<li><strong>Lokal:</strong> En händelse kan bara påverka sin direkta omgivning.</li>
+<li><strong>Objektiv:</strong> Verkligheten existerar oberoende av om vi observerar den.</li>
+<li><strong>Konsekvens:</strong> Kan leda till en känsla av att fri vilja är en illusion.</li>
+</ul>
+</div>
+<div class="bg-white p-6 rounded-xl shadow-md border border-slate-200">
+<h3 class="text-2xl font-semibold mb-3 flex items-center gap-3"><span class="text-2xl">⚛️</span> Kvantmekanisk Osäkerhet</h3>
+<p class="text-slate-600 mb-4">Verkligheten på den minsta nivån är probabilistisk och oberäknelig.</p>
+<ul class="space-y-2 list-inside list-disc text-slate-700">
+<li><strong>Slumpmässig:</strong> Resultatet av kvantprocesser är fundamentalt slumpmässigt.</li>
+<li><strong>Icke-lokal:</strong> Sammankopplade partiklar kan påverka varandra omedelbart över enorma avstånd.</li>
+<li><strong>Observatörsberoende:</strong> Observation kan påverka utfallet av ett experiment.</li>
+<li><strong>Konsekvens:</strong> Öppnar dörren för teorier om fri vilja och medvetandets roll.</li>
+</ul>
+</div>
+</div>
+<div class="mt-12">
+<h3 class="text-2xl font-bold text-center mb-4">Visuell Jämförelse</h3>
+<div class="chart-container"><canvas id="worldviewChart"></canvas></div>
+</div>
+</section>
+<section id="quantum-mind" class="content-section">
+<div class="text-center mb-8">
+<h2 class="text-3xl font-bold mb-2">Är Hjärnan en Kvantdator?</h2>
+<p class="max-w-2xl mx-auto text-slate-600">Idén om "kvantmedvetande" är kontroversiell men kittlande. Den föreslår att hjärnans mest komplexa funktioner – som medvetande, kreativitet och beslutsfattande – kanske grundar sig i kvantmekaniska processer. Utforska några av de ledande teorierna genom att klicka på korten nedan.</p>
+</div>
+<div id="quantum-mind-cards" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+<div id="quantum-mind-details" class="mt-8 bg-white p-6 rounded-xl shadow-md border border-slate-200 min-h-[150px] flex items-center justify-center">
+<p class="text-slate-500">Välj en teori ovan för att läsa mer.</p>
+</div>
+</section>
+<section id="pioneers" class="content-section">
+<div class="text-center mb-8">
+<h2 class="text-3xl font-bold mb-2">Fysikens Rebeller</h2>
+<p class="max-w-2xl mx-auto text-slate-600">Under en period då många fysiker nöjde sig med att "räkna och hålla tyst", vågade en grupp tänkare ställa de djupa, filosofiska frågorna om kvantmekanikens sanna natur. Deras arbete lade grunden för vår moderna förståelse av verkligheten och ledde till Nobelpris. Klicka på namnen i tidslinjen för att se deras bidrag.</p>
+</div>
+<div class="grid lg:grid-cols-3 gap-8">
+<div id="pioneers-timeline" class="lg:col-span-1 space-y-4"></div>
+<div id="pioneer-details" class="lg:col-span-2 bg-white p-6 rounded-xl shadow-md border border-slate-200 flex flex-col justify-center min-h-[300px]">
+<p class="text-slate-500 text-center">Välj en pionjär från tidslinjen till vänster.</p>
+</div>
+</div>
+</section>
+<section id="meaning" class="content-section">
+<div class="text-center mb-8">
+<h2 class="text-3xl font-bold mb-2">Sökandet efter Mening</h2>
+<p class="max-w-2xl mx-auto text-slate-600">Klassisk fysiks mekaniska världsbild lämnade lite utrymme för mening, syfte eller en gudomlig plan. Kvantfysikens mysterier och osäkerhet har däremot fått vissa att se kopplingar till andlighet och religion. Här utforskar vi hur olika tänkare och rörelser har tolkat kvantfysiken i sökandet efter djupare svar.</p>
+</div>
+<div class="text-center mb-6"><button id="btn-religion" class="meaning-btn active bg-indigo-600 text-white py-2 px-5 rounded-l-full">Vetenskap &amp; Religion</button> <button id="btn-newage" class="meaning-btn bg-slate-200 text-slate-700 py-2 px-5 rounded-r-full">New Age-tolkningar</button></div>
+<div class="grid md:grid-cols-2 gap-8 items-center">
+<div id="meaning-content" class="text-slate-700 space-y-4"></div>
+<div class="chart-container"><canvas id="meaningChart"></canvas></div>
+</div>
+</section>
+</main></div>
+<p>
+<script>
+const contentData = {
+    quantumMind: [
+        { name: "Orch-OR", title: "Orchestrated Objective Reduction", details: "Utvecklad av Roger Penrose och Stuart Hameroff. Föreslår att medvetande uppstår från kvantprocesser i hjärncellernas mikrotubuli. Hjärnan kan 'hoppa' till kreativa lösningar på ett sätt som klassiska datorer inte kan." },
+        { name: "Bohm", title: "Implicate Order", details: "David Bohms teori ser universum som ett sammanflätat helt. Medvetandet är inte separerat från materien, utan plockar tankar ur ett underliggande, osynligt mönster. Har en stark andlig och holistisk ton." },
+        { name: "QBD", title: "Quantum Brain Dynamics", details: "Föreslår att hjärnan använder kvantfält för att lagra minnen och skapa tankar. Minnen är inte lagrade i enskilda neuroner utan i energifält som spänner över stora delar av hjärnan." },
+        { name: "CNET", title: "Catecholaminergic Neuron Electron Transport", details: "Fokuserar på dopaminproducerande nervceller. Snabba beslut kan bero på elektroner som tunnlar mellan molekyler på ett kvantmekaniskt sätt, vilket möjliggör blixtsnabba val." }
+    ],
+    pioneers: [
+        { year: 1952, name: "David Bohm", details: "Publicerade sin 'dolda variabler'-teori, ett försök att återinföra determinism i kvantmekaniken. Även om teorin inte slog igenom, återuppväckte den debatten om kvantfysikens grunder och inspirerade John Bell." },
+        { year: 1954, name: "Max Born", details: "Vann Nobelpriset för sin fundamentala forskning inom kvantmekanik, specifikt för sin statistiska tolkning av vågfunktionen, vilket är grunden för att förstå kvantmekanisk slump." },
+        { year: 1964, name: "John Bell", details: "Utvecklade Bells teorem, ett matematiskt bevis som visar att kvantmekanikens förutsägelser är oförenliga med en lokal, deterministisk världsbild. Detta bevisade att 'spooky action at a distance' var en oundviklig konsekvens av teorin." },
+        { year: 1972, name: "John Clauser", details: "Genomförde det första praktiska experimentet som testade Bells teorem. Mot alla förväntningar bekräftade hans resultat kvantmekanikens icke-lokala natur, vilket lade grunden för ett Nobelpris 50 år senare." }
+    ],
+    meaning: {
+        religion: {
+            title: "Fysiker, Tro och en Central Ordning",
+            text: "Determinismens kalla världsbild kan kännas meningslös. Vissa framstående fysiker fann personligen en harmoni mellan vetenskap och sin religiösa tro. De såg inte en konflikt, utan snarare två olika vägar till sanning. Max Planck och Werner Heisenberg var båda lutheraner och talade om en 'central ordning' i universum. Georges Lemaître, en katolsk präst, formulerade Big Bang-teorin och såg den som förenlig med en skapelseberättelse. För dem gav kvantmekanikens mysterier och avskaffande av strikt determinism utrymme för en gudomlig plan och fri vilja, något som den klassiska fysiken hade svårt att rymma.",
+            chartData: { labels: ['Planck', 'Heisenberg', 'Lemaître', 'Bohm'], data: [7, 7, 8, 9], label: 'Harmoni mellan Vetenskap & Andlighet' }
+        },
+        newAge: {
+            title: "Medvetandet Formar Verkligheten",
+            text: "New Age-rörelser har ofta anammat kvantfysiken, ibland på ett sätt som de flesta fysiker anser vara pseudovetenskap. Tänkare som Deepak Chopra använder begrepp som 'kvantsjäl' och 'oändliga möjligheter' för att argumentera att mänskligt medvetande direkt kan påverka och forma den fysiska verkligheten. Idén är att eftersom observation påverkar kvantsystem, kan våra tankar och intentioner påverka världen omkring oss. Även om detta saknar vetenskapliga bevis, är dess popularitet ett tecken på en längtan efter mening och agens i en värld som annars kan verka slumpmässig eller förutbestämd.",
+            chartData: { labels: ['Chopra', 'Andra New Age-tolkare'], data: [10, 8], label: 'Medvetandets Skapande Kraft' }
+        }
+    }
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    const navButtons = document.querySelectorAll('.nav-button');
+    const contentSections = document.querySelectorAll('.content-section');
+    let worldviewChart, meaningChart;
+
+    function switchTab(targetId) {
+        navButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.target === targetId));
+        contentSections.forEach(sec => sec.classList.toggle('active', sec.id === targetId));
+    }
+
+    navButtons.forEach(button => {
+        button.addEventListener('click', () => switchTab(button.dataset.target));
+    });
+
+    function createWorldviewChart() {
+        const ctx = document.getElementById('worldviewChart').getContext('2d');
+        if (worldviewChart) worldviewChart.destroy();
+        worldviewChart = new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['Förutsägbarhet', 'Lokalitet', 'Objektiv Verklighet', 'Slump', 'Observatörs-påverkan'],
+                datasets: [
+                    {
+                        label: 'Klassisk Fysik',
+                        data: [10, 10, 10, 1, 1],
+                        backgroundColor: 'rgba(76, 81, 191, 0.2)',
+                        borderColor: 'rgba(76, 81, 191, 1)',
+                        pointBackgroundColor: 'rgba(76, 81, 191, 1)',
+                        borderWidth: 2
+                    },
+                    {
+                        label: 'Kvantfysik',
+                        data: [2, 1, 4, 10, 9],
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        pointBackgroundColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 2
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        angleLines: { color: 'rgba(0, 0, 0, 0.1)' },
+                        grid: { color: 'rgba(0, 0, 0, 0.1)' },
+                        pointLabels: { font: { size: 12 } },
+                        suggestedMin: 0,
+                        suggestedMax: 10,
+                        ticks: {
+                           display: false
+                        }
+                    }
+                },
+                plugins: {
+                    legend: { position: 'top' }
+                }
+            }
+        });
+    }
+    
+    function populateQuantumMind() {
+        const container = document.getElementById('quantum-mind-cards');
+        const detailsPanel = document.getElementById('quantum-mind-details');
+        
+        contentData.quantumMind.forEach(theory => {
+            const card = document.createElement('div');
+            card.className = 'info-card bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer';
+            card.innerHTML = `<h4 class="font-semibold text-indigo-700">${theory.title}</h4>`;
+            card.addEventListener('click', () => {
+                detailsPanel.innerHTML = `
+                    <div class="text-left">
+                        <h3 class="text-2xl font-bold mb-2">${theory.title}</h3>
+                        <p class="text-slate-600">${theory.details}</p>
+                    </div>`;
+            });
+            container.appendChild(card);
+        });
+    }
+
+    function populatePioneers() {
+        const timeline = document.getElementById('pioneers-timeline');
+        const details = document.getElementById('pioneer-details');
+        
+        contentData.pioneers.forEach(pioneer => {
+            const item = document.createElement('div');
+            item.className = 'timeline-item cursor-pointer group';
+            item.innerHTML = `
+                <div class="timeline-dot group-hover:bg-pink-500"></div>
+                <p class="font-bold text-lg group-hover:text-indigo-600">${pioneer.name}</p>
+                <p class="text-sm text-slate-500">${pioneer.year}</p>
+            `;
+            item.addEventListener('click', () => {
+                details.innerHTML = `
+                    <div class="text-left">
+                        <h3 class="text-3xl font-bold mb-2">${pioneer.name} <span class="text-xl font-normal text-slate-500">(${pioneer.year})</span></h3>
+                        <p class="text-slate-600 text-lg">${pioneer.details}</p>
+                    </div>`;
+            });
+            timeline.appendChild(item);
+        });
+    }
+
+    function updateMeaningContent(type) {
+        const content = document.getElementById('meaning-content');
+        const data = contentData.meaning[type];
+        content.innerHTML = `
+            <h3 class="text-2xl font-bold mb-3">${data.title}</h3>
+            <p>${data.text}</p>
+        `;
+        createMeaningChart(data.chartData);
+    }
+    
+    function createMeaningChart(chartData) {
+        const ctx = document.getElementById('meaningChart').getContext('2d');
+        if (meaningChart) meaningChart.destroy();
+        meaningChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: chartData.labels,
+                datasets: [{
+                    label: chartData.label,
+                    data: chartData.data,
+                    backgroundColor: ['rgba(76, 81, 191, 0.6)', 'rgba(107, 114, 128, 0.6)', 'rgba(239, 68, 68, 0.6)', 'rgba(245, 158, 11, 0.6)'],
+                    borderColor: ['rgba(76, 81, 191, 1)', 'rgba(107, 114, 128, 1)', 'rgba(239, 68, 68, 1)', 'rgba(245, 158, 11, 1)'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        suggestedMax: 10,
+                        grid: { display: false },
+                        ticks: { display: false }
+                    },
+                     y: {
+                        grid: { display: false }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    title: { display: true, text: 'Konceptuell representation' }
+                }
+            }
+        });
+    }
+    
+    const meaningButtons = document.querySelectorAll('.meaning-btn');
+    meaningButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            meaningButtons.forEach(b => b.classList.remove('active', 'bg-indigo-600', 'text-white'));
+            meaningButtons.forEach(b => b.classList.add('bg-slate-200', 'text-slate-700'));
+            
+            e.currentTarget.classList.add('active', 'bg-indigo-600', 'text-white');
+            e.currentTarget.classList.remove('bg-slate-200', 'text-slate-700');
+            
+            const type = e.currentTarget.id === 'btn-religion' ? 'religion' : 'newAge';
+            updateMeaningContent(type);
+        });
+    });
+
+    createWorldviewChart();
+    populateQuantumMind();
+    populatePioneers();
+    updateMeaningContent('religion');
+});
+</script>
+</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>En Ny Syn på Depression </title>
         <author>
