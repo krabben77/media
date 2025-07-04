@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Avpoxlat.xyz  en lite bättre blogg än alla andra</title>
+    <title>Avpixlat</title>
     <link href="https://avpixlat.xyz/feed.xml" rel="self" />
     <link href="https://avpixlat.xyz" />
-    <updated>2025-07-04T10:03:30+02:00</updated>
+    <updated>2025-07-04T11:14:43+02:00</updated>
     <author>
         <name>Redaktören</name>
     </author>
     <id>https://avpixlat.xyz</id>
 
-    <entry>
-        <title>Min AI musik</title>
-        <author>
-            <name>Redaktören</name>
-        </author>
-        <link href="https://avpixlat.xyz/min-ai-musik/"/>
-        <id>https://avpixlat.xyz/min-ai-musik/</id>
-        <media:content url="https://avpixlat.xyz/media/posts/42/Skaermklipp.PNG" medium="image" />
-            <category term="AI"/>
-
-        <updated>2025-07-01T22:31:27+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://avpixlat.xyz/media/posts/42/Skaermklipp.PNG" alt="" />
-                    Det är med gratisversionen från Udio.com
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://avpixlat.xyz/media/posts/42/Skaermklipp.PNG" class="type:primaryImage" alt="" /></p>
-                <address>Det är med gratisversionen från <a href="https://www.udio.com" target="_blank"  class="extlink extlink-icon-1"  rel="noopener noreferrer nofollow">Udio.com</a> <br><div class="post__iframe"><iframe loading="lazy" width="200" height="200" style="width: 700px; height: 228px; border-radius: 12px;" src="https://www.udio.com/embed/oTkhadztMNgmXQjquJSLGf?embedVariant=default&amp;utm_source=generator"></iframe></div></address>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>AI &amp; Själen</title>
         <author>
@@ -41,15 +16,18 @@
         </author>
         <link href="https://avpixlat.xyz/ai-and-sjaelen/"/>
         <id>https://avpixlat.xyz/ai-and-sjaelen/</id>
+        <media:content url="https://avpixlat.xyz/media/posts/39/img_1.jpg" medium="image" />
 
         <updated>2025-07-01T14:36:50+02:00</updated>
             <summary>
                 <![CDATA[
-                    Moderna AI-modeller har blivit exceptionellt skickliga på att simulera empati. De tränas på enorma mängder mänsklig&hellip;
+                        <img src="https://avpixlat.xyz/media/posts/39/img_1.jpg" alt="" />
+                    Moderna AI-modeller har blivit exceptionellt skickliga på att simulera empati.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://avpixlat.xyz/media/posts/39/img_1.jpg" class="type:primaryImage" alt="" /></p>
                 <p>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -337,7 +315,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://avpixlat.xyz/media/posts/34/mediciner-piller-stor2_WP-1.jpg" alt="" />
-                    Gamla Teorin Paradoxen Ny Förståelse Klinisk Betydelse En Ny Syn på Depression Från en simpel kemisk&hellip;
+                    Gamla Teorin Paradoxen Ny Förståelse Klinisk Betydelse En Ny Syn&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -731,7 +709,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://avpixlat.xyz/media/posts/29/quantum-brain-1-scaled.jpg" alt="" />
-                    Kvantmedvetande, eller quantum mind, är en djärv idé som säger att hjärnan kanske använder kvantmekanik – de&hellip;
+                    Kvantmedvetande, eller quantum mind, är en djärv idé som säger att&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -809,7 +787,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://avpixlat.xyz/media/posts/18/brain-then-now.jpg" alt="" />
-                    Nyckelpoäng Forskning tyder på att medvetandefilosofi alltmer integrerar empiriska metoder, såsom studier av perception och minne.
+                    Nyckelpoäng Forskning tyder på att medvetandefilosofi alltmer integrerar empiriska metoder,&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -928,7 +906,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://avpixlat.xyz/media/posts/12/Human-brain-on-artificial-intelligence-chip-1200x686.jpeg" alt="" />
-                    Frågan om artificiell intelligens (AI) kan bli självmedvetet berör teknik, neurovetenskap, filosofi och etik. En studie&hellip;
+                    Frågan om artificiell intelligens (AI) kan bli självmedvetet berör teknik,&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1100,6 +1078,31 @@
 <p>Dokumentet: Mon-Williams et al. (2025), Cai et al. (2023), Smirnova et al., Mishra et al.</p>
 </li>
 </ul>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Min AI musik</title>
+        <author>
+            <name>Redaktören</name>
+        </author>
+        <link href="https://avpixlat.xyz/min-ai-musik/"/>
+        <id>https://avpixlat.xyz/min-ai-musik/</id>
+        <media:content url="https://avpixlat.xyz/media/posts/42/Skaermklipp.PNG" medium="image" />
+            <category term="AI"/>
+
+        <updated>2025-06-01T22:31:00+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://avpixlat.xyz/media/posts/42/Skaermklipp.PNG" alt="" />
+                    Det är med gratisversionen från Udio.com
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://avpixlat.xyz/media/posts/42/Skaermklipp.PNG" class="type:primaryImage" alt="" /></p>
+                <address>Det är med gratisversionen från <a href="https://www.udio.com" target="_blank"  class="extlink extlink-icon-1"  rel="noopener noreferrer nofollow">Udio.com</a> <br><div class="post__iframe"><iframe loading="lazy" width="200" height="200" style="width: 700px; height: 228px; border-radius: 12px;" src="https://www.udio.com/embed/oTkhadztMNgmXQjquJSLGf?embedVariant=default&amp;utm_source=generator"></iframe></div></address>
 <p> </p>
             ]]>
         </content>
