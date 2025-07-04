@@ -3,7 +3,7 @@
     <title>Avpoxlat.xyz  en lite bättre blogg än alla andra</title>
     <link href="https://avpixlat.xyz/feed.xml" rel="self" />
     <link href="https://avpixlat.xyz" />
-    <updated>2025-07-04T06:04:17+02:00</updated>
+    <updated>2025-07-04T10:03:30+02:00</updated>
     <author>
         <name>Redaktören</name>
     </author>
@@ -41,18 +41,15 @@
         </author>
         <link href="https://avpixlat.xyz/ai-and-sjaelen/"/>
         <id>https://avpixlat.xyz/ai-and-sjaelen/</id>
-        <media:content url="https://avpixlat.xyz/media/posts/39/_1009247-4011.jpg" medium="image" />
 
         <updated>2025-07-01T14:36:50+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://avpixlat.xyz/media/posts/39/_1009247-4011.jpg" alt="" />
                     Moderna AI-modeller har blivit exceptionellt skickliga på att simulera empati. De tränas på enorma mängder mänsklig&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://avpixlat.xyz/media/posts/39/_1009247-4011.jpg" class="type:primaryImage" alt="" /></p>
                 <p>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
